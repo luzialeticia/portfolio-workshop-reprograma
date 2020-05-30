@@ -1,0 +1,110 @@
+/* INFOS PRA TODO SITE */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    fonte-size: 20px;
+}
+
+p {
+    fonte-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER/BANNER */
+
+.banner {
+    background: url(../img/banner-bg.png) center no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+
+.banner__conteudo {
+    padding: 260px;
+    color: white;
+    text-align: center;
+}
+
+.banner__titulo {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.banner__subtitulo {
+    font-size: 24px;
+}
+
+/* BOTÃO */
+
+.botao {
+    background-color: #fff;
+    color: #7E459B;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* SOBRE MIM */
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1080px;
+    margin-top: 90px;
+}
+
+.sobre-titulo {
+    font-size: 40px;
+    color: #C4C4C4;
+}
+
+.sobre {
+    display: flex;
+}
+
+.sobre__descricao, .sobre__habilidades   {
+    width: 50%;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.sobre__habilidades {
+    margin-left: 70px;
+}
+
+.sobre__habilidades-lista {
+    font-size: 18px;
+}
+
+.sobre__cv {
+    border: 1px solid #7E459B;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes-sociais__link {
+    background-color: #7E459B;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+}
+
+.copyright {
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+}
