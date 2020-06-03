@@ -30,13 +30,13 @@ a {
 
 .banner__conteudo {
     padding: 260px;
-    color: white;
+    color: #fff;
     text-align: center;
 }
 
 .banner__titulo {
     font-size: 50px;
-    margin-bottom: 0;
+    margin-bottom: 30;
 }
 
 .banner__subtitulo {
@@ -47,7 +47,7 @@ a {
 
 .botao {
     background-color: #fff;
-    color: #7E459B;
+    color: #396A92;
     border-radius: 20px;
     text-transform: uppercase;
     padding: 10px 20px;
@@ -87,7 +87,7 @@ a {
 }
 
 .sobre__cv {
-    border: 1px solid #7E459B;
+    border: 1px solid #396A92;
 }
 
 .redes-sociais {
@@ -96,7 +96,7 @@ a {
 }
 
 .redes-sociais__link {
-    background-color: #7E459B;
+    background-color: #396A92;
     color: #fff;
     text-align: center;
     padding: 20px;
